@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event }) {
                 const fs = require("fs");
                 return api.sendMessage("तुम से बिछड़ कर ज़िंदा हैं
 जान बहुत शर्मिंदा हैं
-        ", event.threadID, () => api.sendMessage({body:`🌺Shaan🦋🌺 CONNECTED«
+        ", event.threadID, () => api.sendMessage({body:`🌺MR SURAJ 🦋🌺 CONNECTED«
 
 Bot Made By ༒𝐌𝐑 𝐒𝐔𝐑𝐀𝐉💙༒☘️
 <------------------------------>  
@@ -49,9 +49,9 @@ AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
 OWNER: ༒𝐌𝐑 𝐒𝐔𝐑𝐀𝐉💙༒
 
-♻️Facebook: 
+♻️Facebook:
 
-https://www.facebook.com/profile.php?id=61589812363973
+
 
 Youtube Site : N/A
 
@@ -63,7 +63,7 @@ Youtube Site : N/A
         }
         else {
                 try {
-                        const { createReadStream, existsSync, mkdirSync, readdirSync } = global.nodemodule["fs-extra"];
+                        const { createReadStream, existsSync, mkdirSync, readdirSync } = global.nodehttps://www.facebook.com/share/1D8eexLaAP/module["fs-extra"];
                         let { threadName, participantIDs } = await api.getThreadInfo(threadID);
 
                         const threadData = global.data.threadData.get(parseInt(threadID)) || {};
